@@ -1,5 +1,5 @@
 <style>
-  /* Restyle the main header as our unified banner */
+  /* Restyle the main-header as our unified banner */
   .main-header {
     background-color: #003B5C !important;
     border-bottom: 3px solid #FFD100 !important;
@@ -8,7 +8,7 @@
     align-items: center !important;
   }
 
-  /* Hide the search and aux nav — banner replaces everything */
+  /* Hide search and aux nav inside main-header */
   .main-header > .search,
   .main-header > .search-overlay,
   .main-header > div:first-child,
@@ -50,9 +50,51 @@
     white-space: nowrap;
   }
 
-  @media (max-width: 767px) {
+  /* Hide the sidebar header (redundant title + menu button below gold line) */
+  .side-bar .site-header {
+    display: none !important;
+  }
+
+  /* Add a nav menu button inside our banner via JS */
+  .ucla-banner__menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: none; /* only show on mobile */
+    flex-shrink: 0;
+  }
+  .ucla-banner__menu svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFD100;
+  }
+
+  @media (max-width: 49.999rem) {
+    .ucla-banner__menu {
+      display: block;
+    }
     .ucla-banner img { height: 26px; }
     .ucla-banner__title { font-size: 13px; }
     .ucla-banner__prof { font-size: 11px; }
   }
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add hamburger menu button to our banner
+  var banner = document.querySelector('.ucla-banner');
+  if (!banner) return;
+
+  var menuBtn = document.createElement('button');
+  menuBtn.className = 'ucla-banner__menu';
+  menuBtn.setAttribute('aria-label', 'Menu');
+  menuBtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>';
+  banner.insertBefore(menuBtn, banner.firstChild);
+
+  // Wire it to toggle the same sidebar as the original button
+  var origBtn = document.getElementById('menu-button');
+  menuBtn.addEventListener('click', function() {
+    if (origBtn) origBtn.click();
+  });
+});
+</script>
