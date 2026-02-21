@@ -88,13 +88,12 @@
     color: rgba(255,255,255,0.5) !important;
   }
 
-  /* Hamburger menu in banner for mobile */
+  /* Hamburger menu in banner */
   .ucla-banner__menu {
     background: none;
     border: none;
     cursor: pointer;
     padding: 4px;
-    display: none;
     flex-shrink: 0;
   }
   .ucla-banner__menu svg {
@@ -102,11 +101,11 @@
     height: 24px;
     fill: #FFD100;
   }
+  .ucla-banner__menu:hover svg {
+    fill: #FFFFFF;
+  }
 
   @media (max-width: 49.999rem) {
-    .ucla-banner__menu {
-      display: block;
-    }
     .ucla-banner img { height: 26px; }
     .ucla-banner__title { font-size: 13px; }
     .ucla-banner__prof { font-size: 11px; }
