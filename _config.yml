@@ -1,6 +1,6 @@
 title: "MGMT 298D — Financial Technology: FinTech"
 description: "UCLA Anderson School of Management | Spring 2026 | Professor Andrea Eisfeldt"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: "https://andrea-eisfeldt-finance.github.io"
 baseurl: "/fintech-course"
