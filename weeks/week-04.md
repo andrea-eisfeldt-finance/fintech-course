@@ -41,7 +41,7 @@ None
 
 ## Case Questions
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for format and grading details.
 
 1. What is Wealthfront's value proposition to its investor clients? How does Wealthfront help individual investors?
    - What asset classes do they offer?

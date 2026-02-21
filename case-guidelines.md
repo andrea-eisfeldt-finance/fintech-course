@@ -14,7 +14,7 @@ nav_order: 3
 
 ## Groups and Due Dates
 
-- Cases are assigned to **Group A** or **Group B** (assigned by program: MBA, FEMBA, EMBA). See the [Syllabus]({% link syllabus.md %}) for the full schedule.
+- Cases are assigned to **Group A** or **Group B** (assigned by program: MBA, FEMBA, EMBA). See the [Syllabus]({{ '/syllabus.html' | relative_url }}) for the full schedule.
 - Case writeups are due on the date of the class discussion for your group.
 - Case questions are posted on the course site the week prior to the due date.
 

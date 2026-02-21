@@ -41,7 +41,7 @@ None
 
 ## Case Questions
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for format and grading details.
 
 1. Describe OnDeck's business model. What does OnDeck do, and in what ways is it similar to or different from a bank? Construct OnDeck's book value balance sheet and identify the key assets, liabilities, and sources of equity. How does OnDeck's balance sheet compare to a traditional community bank that also lends to small businesses?
 

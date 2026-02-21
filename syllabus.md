@@ -30,7 +30,7 @@ Required and optional readings are linked on each weekly topic page.
 
 ### Case Assignments
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for complete format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for complete format and grading details.
 
 Cases marked "A" or "B" are due on the date of the class discussion for groups in the A or B groups, respectively. Case questions are posted on the course site the week prior to the due date. Groups are assigned by program (MBA, FEMBA, EMBA).
 
@@ -42,7 +42,7 @@ Due Week 5. This individual assignment asks you to identify financial institutio
 
 ### Business Proposal Project
 
-The capstone project, worth 30% of your grade. See the full [Business Proposal Assignment]({% link business-proposal.md %}) for detailed descriptions, examples, grading criteria, resources, and guidance on using AI tools.
+The capstone project, worth 30% of your grade. See the full [Business Proposal Assignment]({{ '/business-proposal.html' | relative_url }}) for detailed descriptions, examples, grading criteria, resources, and guidance on using AI tools.
 
 **Summary of three parts:**
 - **Part I — Industry Analysis (10%):** Five-slide summary of your chosen fintech sub-industry (Due: Week 3 for Group A, Week 4 for Group B)

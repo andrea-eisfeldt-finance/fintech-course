@@ -24,7 +24,7 @@ Your presentation should cover all three parts of your Business Proposal:
 3. **Business Plan** — Product, go-to-market strategy, technology, regulatory approach, and timeline
 4. **Pro Formas and Financing** — 3-year projected financials and capital requirements
 
-See the full [Business Proposal Assignment]({% link business-proposal.md %}) for detailed requirements and grading criteria.
+See the full [Business Proposal Assignment]({{ '/business-proposal.html' | relative_url }}) for detailed requirements and grading criteria.
 
 ## Presentation Tips
 

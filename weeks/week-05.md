@@ -42,7 +42,7 @@ None
 
 ## Case Questions
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for format and grading details.
 
 **The 10 institution types to identify:**
 - Global banking entity with commercial bank and broker-dealer subsidiaries

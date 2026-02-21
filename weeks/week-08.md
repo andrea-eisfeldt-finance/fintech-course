@@ -44,7 +44,7 @@ None
 
 ## Case Questions
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for format and grading details.
 
 1. Describe the traditional commercial real estate (CRE) financing market. Who are the key participants (developers, banks, institutional investors, REITs), and what are the major frictions — illiquidity, high minimum investment, intermediary fees, slow settlement, geographic barriers to investor participation? Quantify where possible: what is a typical CRE loan rate, minimum investment size, and transaction timeline?
 

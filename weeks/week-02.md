@@ -44,7 +44,7 @@ nav_order: 2
 
 ## Case Questions
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for format and grading details.
 
 1. Construct SoFi's corporate accounting (book value) and market value T-accounts (A=L+E and A=D+E) using the most recent 10-K filing. What is SoFi's current market-to-book ratio, and what does it imply about the market's view of SoFi's intangible assets?
 

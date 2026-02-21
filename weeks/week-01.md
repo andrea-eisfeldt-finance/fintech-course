@@ -41,7 +41,7 @@ nav_order: 1
 
 ## Case Questions
 
-See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format and grading details.
+See the [Case Assignment Guidelines]({{ '/case-guidelines.html' | relative_url }}) for format and grading details.
 
 1. What are large **global** banks and **universal** banks, and how do these concepts differ? *A global bank operates across multiple countries and jurisdictions; a universal bank combines commercial banking (deposits, lending) with investment banking (underwriting, trading, advisory) under one roof. JPMorgan Chase is both.* What are their sources of revenue, including both interest income and non-interest income? Using JPMorgan Chase's most recent annual report, quantify the breakdown across major business segments.
 
