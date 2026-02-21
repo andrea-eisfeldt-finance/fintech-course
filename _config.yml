@@ -1,0 +1,29 @@
+title: "MGMT 298D — Financial Technology: FinTech"
+description: "UCLA Anderson School of Management | Spring 2026 | Professor Andrea Eisfeldt"
+theme: just-the-docs
+
+url: "https://andrea-eisfeldt-finance.github.io"
+baseurl: "/fintech-course"
+
+color_scheme: ucla
+
+aux_links:
+  "HBS Case Pack":
+    - "https://hbsp.harvard.edu/import/1387361"
+
+nav_sort: order
+
+search_enabled: true
+search.heading_level: 3
+
+heading_anchor: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "MGMT 298D &mdash; UCLA Anderson School of Management &mdash; Spring 2026"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
