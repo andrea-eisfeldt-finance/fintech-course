@@ -99,9 +99,11 @@
   .ucla-banner__menu svg {
     width: 24px;
     height: 24px;
+  }
+  .ucla-banner__menu svg rect {
     fill: #FFD100;
   }
-  .ucla-banner__menu:hover svg {
+  .ucla-banner__menu:hover svg rect {
     fill: #FFFFFF;
   }
 
@@ -118,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var menuBtn = document.createElement('button');
   menuBtn.className = 'ucla-banner__menu';
   menuBtn.setAttribute('aria-label', 'Menu');
-  menuBtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>';
+  menuBtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="2.5" rx="1" fill="#FFD100"/><rect x="2" y="10.75" width="20" height="2.5" rx="1" fill="#FFD100"/><rect x="2" y="17.5" width="20" height="2.5" rx="1" fill="#FFD100"/></svg>';
   banner.insertBefore(menuBtn, banner.firstChild);
   var origBtn = document.getElementById('menu-button');
   menuBtn.addEventListener('click', function() {
