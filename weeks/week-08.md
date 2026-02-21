@@ -104,3 +104,30 @@ See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format a
    - Technology stack (which blockchain, how to handle compliance in smart contracts)
    - Distribution (institutional vs. retail, embedded vs. standalone)
    - How could AI assist with property valuation, due diligence, investor matching, and compliance automation?
+
+---
+
+## Slide Outlines
+
+### Deck 8: Tokenization & Fluidity Case Discussion (~24 slides)
+
+| # | Title | Content |
+|---|-------|---------|
+| 1 | Title | Week 8: Tokenization & Fluidity |
+| 2 | Discussion Opener | RWA.xyz dashboard screenshot — $36B+ tokenized; where did this come from? |
+| 3–4 | CRE Financing Landscape | Traditional players (banks, REITs, CMBS, PE); frictions — illiquidity, high minimums, slow settlement; typical rates and timelines |
+| 5 | Tokenization: What Is It? | Distinguish from stablecoins and crypto; tokens as digital wrappers on real assets |
+| 6 | Types of Tokens | Payment, governance, utility, security tokens; the Howey test |
+| 7 | ICO Boom and Bust | Case Exhibit 2; peak May 2018 → SEC enforcement → pivot to STOs |
+| 8–9 | Fluidity's Business Model | Two Token Waterfall (A-tokens debt, B-tokens preferred equity); Propellr as broker-dealer; AirSwap P2P exchange; 6.7% vs. 10-18% bank rate |
+| 10 | The Deal: 13 East+West | 12-unit Manhattan condo, $34M appraised, $25M raise, 73.5% LTV |
+| 11–12 | What Went Wrong | $3B interest → adverse selection; no direct collateral; institutional investors stayed away; chicken-and-egg liquidity; deal shelved 2019 |
+| 13 | Lessons from Failure | Technological feasibility ≠ market readiness; adverse selection in new markets; need for institutional credibility |
+| 14–15 | Tokenization Since Fluidity | Timeline: 2019 → DeFi summer → BlackRock enters → institutional adoption; RWA market growth chart |
+| 16 | Current Platforms Comparison | RealT, Lofty, BlackRock BUIDL, Figure Technologies; what changed? |
+| 17–18 | RWA.xyz Data Analysis | Breakdown by asset class: private credit $19B, Treasuries $9B, commodities $3.5B, real estate lagging; why? |
+| 19–20 | IMF Framework: Which Assets Tokenize Best? | Asset lifecycle analysis; tokenization premium by asset type; table from Q8 |
+| 21 | Why Real Estate Lags | Property rights hard to encode; legal complexity; valuation subjectivity; local regulation |
+| 22 | Academic Perspectives | Lambert et al. on STOs; Bergkamp et al. on democratization; Ebadi on secondary market limits |
+| 23 | Q9: Build a Better Platform | Design exercise discussion — asset selection, token structure, regulatory strategy, AI applications |
+| 24 | Key Takeaways | Tokenization solves real frictions but faces adverse selection and liquidity bootstrapping; institutional entry is the inflection; not all assets benefit equally |

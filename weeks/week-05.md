@@ -72,3 +72,44 @@ See the [Case Assignment Guidelines]({% link case-guidelines.md %}) for format a
 6. The case data is from FR Y-9C filings (Federal Reserve consolidated financial statements). Using FRED, FDIC BankFind, or SEC EDGAR, pull current balance sheet ratios for one institution in each category (e.g., JPMorgan for global banking entity, SoFi for fintech consumer lender, OnDeck/Enova for fintech small business lender). How have the ratios changed since the case data was compiled? What drove the changes — regulation, competition, interest rates, technology, or business model evolution?
 
 7. The case includes two fintech lenders but was compiled before several major developments: SoFi obtaining a bank charter (2022), OnDeck's acquisition by Enova (2020), and the rise of embedded lending platforms (Shopify Capital, Block). If this case were updated today, would the fintech lenders' columns look more like the traditional banks, or more different? What new institution types might you add (e.g., neobank, BNPL platform, crypto exchange, robo-advisor)?
+
+---
+
+## Slide Outlines
+
+### Deck 5a: GenAI in Finance (~24 slides)
+
+| # | Title | Content |
+|---|-------|---------|
+| 1 | Title | Week 5a: GenAI in Finance |
+| 2 | Discussion Opener | What can GenAI actually do in finance today? Live demo or screenshot |
+| 3 | Outline | Overview, LLMs, use cases, firm value implications, risks |
+| 4–5 | What Are LLMs? | Transformer architecture intuition; pre-training vs. fine-tuning; scale laws |
+| 6 | The GenAI Timeline | GPT-3 (2020) → ChatGPT (2022) → GPT-4 (2023) → Claude/Gemini/open-source (2024–25) → AI agents (2025–26) |
+| 7–8 | GenAI Use Cases in Finance | Customer-facing: chatbots, robo-advice, personalized products. Internal: fraud detection, compliance/AML, credit underwriting, document processing, code generation |
+| 9 | Goldman Sachs Perspective | Key findings from GS "Hype or Truly Transformative?" |
+| 10–11 | Eisfeldt & Schubert: GenAI and Finance | GenAI capabilities mapped to finance functions; NLP, code, reasoning |
+| 12–13 | Eisfeldt, Schubert, Zhang & Taska: GenAI and Firm Values | AI exposure scores; which firms gain value from GenAI; market reaction to ChatGPT launch |
+| 14 | AI Exposure by Industry | Chart: financial services vs. tech vs. other sectors |
+| 15–16 | Intangible Intensity | Eisfeldt, Hartman-Glaser, Kim & Lee: organizational capital, human capital, and how AI shifts intangible composition |
+| 17–18 | AI in Banking vs. Fintech | JPM $17B+ tech spend, proprietary LLMs; bank data advantage vs. fintech agility; who wins? |
+| 19 | Cloud & Infrastructure | AWS, Azure, Google Cloud market shares; ML platform startups; compute costs |
+| 20–21 | AI Agents in Finance | Autonomous agents for trading, research, compliance; agentic workflows; current state |
+| 22 | Risks & Limitations | Hallucinations, bias, regulatory uncertainty, model risk, job displacement, concentration |
+| 23 | Regulation of AI in Finance | EU AI Act, SEC/CFPB guidance, model risk management (SR 11-7) |
+| 24 | Discussion | Where will AI have the biggest impact in finance in the next 5 years? Where won't it? |
+
+### Deck 5b: Unidentified Financial Firms Case Discussion (~12 slides)
+
+| # | Title | Content |
+|---|-------|---------|
+| 1 | Title | Case: Unidentified Financial Firms |
+| 2 | The Exercise | 10 institutions, disguised data — what clues does the balance sheet reveal? |
+| 3–4 | Q1: Key Diagnostic Ratios | Which ratios distinguish institution types? Walk through identification logic |
+| 5–6 | Q2: Balance Sheet Anatomy | Primary assets and liabilities by institution type; equity/assets variation |
+| 7 | Q3: Fintech vs. Traditional Banks | Side-by-side balance sheet comparison; funding model differences |
+| 8 | Q4: Loan Concentration & Scenario Analysis | Housing downturn vs. consumer credit crisis vs. SMB recession |
+| 9 | Q5: Income Composition | Interest income share ranges; fee vs. spread income models |
+| 10 | Q6: Data Exercise Results | Student-pulled current ratios vs. case data; what changed and why |
+| 11 | Q7: If Updated Today | New institution types to add; how fintech columns would change |
+| 12 | Key Takeaways | Balance sheets reveal business models; regulation shapes structure; fintech convergence with banking |
