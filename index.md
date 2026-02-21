@@ -47,6 +47,8 @@ By the end of the course, students will be able to:
 
 ## Weekly Schedule
 
+*Click on the week number for readings, case questions, and slide outlines.*
+
 | Week | Date | Topic | Case / Assignment |
 |------|------|-------|-------------------|
 | [1]({% link weeks/week-01.md %}) | Apr 7 | Banking Industry Landscape & JPMorgan Chase | JPMorgan Chase (pre-class reading) |
