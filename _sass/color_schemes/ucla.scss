@@ -6,24 +6,3 @@ $heading-color: #003B5C;
 $nav-child-link-color: #2774AE;
 $search-result-preview-color: #555;
 $feedback-color: #FFD100;    // UCLA Gold
-
-// Make header text yellow and bold on blue background
-.site-header {
-  background-color: #003B5C;
-
-  .site-title {
-    color: #FFD100 !important;
-    font-weight: bold;
-  }
-
-  a {
-    color: #FFD100 !important;
-    font-weight: bold;
-  }
-}
-
-// Aux links (top-right nav links like "FinTech Case Pack")
-.aux-nav a {
-  color: #FFD100 !important;
-  font-weight: bold;
-}
