@@ -23,7 +23,7 @@ nav_order: 3
 Every case writeup must include quantitative data analysis. This means:
 - Use the case exhibits and any supplementary data provided
 - Pull current data from public sources to update and extend the case analysis (see suggestions in each week's case questions)
-- Show your work — include calculations, charts, or tables in your exhibits
+- Show your work — include charts or tables in your exhibits
 
 ## Using AI Tools
 
