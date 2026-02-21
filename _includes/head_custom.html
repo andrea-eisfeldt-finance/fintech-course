@@ -7,6 +7,11 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
   }
   .site-banner__logo {
     display: flex;
@@ -33,4 +38,21 @@
     font-size: 14px;
     font-weight: bold;
   }
+  body {
+    padding-top: 60px !important;
+  }
 </style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var banner = document.createElement('div');
+    banner.className = 'site-banner';
+    banner.innerHTML = '<div class="site-banner__logo">' +
+      '<img src="{{ "/assets/images/anderson-logo.png" | relative_url }}" alt="UCLA Anderson" onerror="this.style.display=\'none\'">' +
+      '<div>' +
+      '<div class="site-banner__text">UCLA Anderson School of Management</div>' +
+      '<div class="site-banner__school">MGMT 298D — Financial Technology: FinTech — Spring 2026</div>' +
+      '</div></div>' +
+      '<div class="site-banner__prof">Professor Eisfeldt</div>';
+    document.body.insertBefore(banner, document.body.firstChild);
+  });
+</script>
