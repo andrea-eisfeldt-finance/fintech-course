@@ -71,7 +71,7 @@ By the end of the course, students will be able to:
 | 1 Individual Case | 15% |
 | Class Participation | 25% |
 
-All cases are available through the [HBS Case Pack](https://hbsp.harvard.edu/import/1387361).
+All cases are available through the [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361).
 
 ## Using AI in This Course
 

@@ -46,4 +46,4 @@ Strong case writeups will demonstrate:
 
 ## Case Pack
 
-All cases are available through the [HBS Case Pack](https://hbsp.harvard.edu/import/1387361).
+All cases are available through the [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361).

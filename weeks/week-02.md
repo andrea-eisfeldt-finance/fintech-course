@@ -11,7 +11,7 @@ nav_order: 2
 
 ## Case
 
-**SoFi: A Journey Towards Reintermediation** — [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**SoFi: A Journey Towards Reintermediation** — [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 *SoFi (Social Finance) launched in 2011 as a student loan refinancer leveraging alumni networks, then expanded into personal loans, mortgages, investing, and banking. The company obtained a national bank charter in 2022 and went public via SPAC. This case examines the reintermediation strategy of a fintech that evolved from disrupting banks to becoming one.*
 
@@ -21,7 +21,7 @@ nav_order: 2
 
 ## Pre-class Reading
 
-- SoFi case (HBS Case Pack link above)
+- SoFi case (FinTech Case Pack link above)
 - Student loan market trends: [NY Fed Quarterly Report on Household Debt and Credit](https://www.newyorkfed.org/microeconomics/hhdc)
 - Student debt data: [NY Fed Student Loan Data](https://www.newyorkfed.org/microeconomics/topics/student-debt)
 

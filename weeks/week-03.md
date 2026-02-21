@@ -11,7 +11,7 @@ nav_order: 3
 
 ## Case
 
-**OnDeck Capital, Inc.** — [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**OnDeck Capital, Inc.** — [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 *OnDeck Capital pioneered online small business lending using proprietary credit scoring (the OnDeck Score) based on alternative data. The case examines the economics of marketplace lending, underwriting with non-traditional data, and the challenges of fintech securitization. OnDeck was acquired by Enova International in 2020 for ~$90M — a fraction of its peak valuation — making this a case about both innovation and the limits of the marketplace lending model.*
 
@@ -21,7 +21,7 @@ nav_order: 3
 
 ## Pre-class Reading
 
-- OnDeck case (HBS Case Pack link above)
+- OnDeck case (FinTech Case Pack link above)
 
 ## Optional Reading
 

@@ -8,7 +8,7 @@ baseurl: "/fintech-course"
 color_scheme: ucla
 
 aux_links:
-  "HBS Case Pack":
+  "FinTech Case Pack":
     - "https://hbsp.harvard.edu/import/1387361"
 
 nav_sort: order

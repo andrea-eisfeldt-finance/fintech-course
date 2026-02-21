@@ -11,7 +11,7 @@ nav_order: 5
 
 ## Case
 
-**Case of Unidentified Financial Firms** (Individual Assignment) — [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**Case of Unidentified Financial Firms** (Individual Assignment) — [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 *This individual assignment asks students to identify financial institutions from disguised balance sheet and income statement data, applying concepts from Weeks 1–3 on banking, consumer lending, and small business lending.*
 
@@ -21,7 +21,7 @@ nav_order: 5
 
 ## Pre-class Reading
 
-- Case of Unidentified Financial Firms (HBS Case Pack link above)
+- Case of Unidentified Financial Firms (FinTech Case Pack link above)
 - GenAI and finance overview: [Eisfeldt & Schubert — "Generative AI and Finance"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4988553) (SSRN 4988553)
 - AI and firm valuation: [Eisfeldt, Schubert, Zhang & Taska — "Generative AI and Firm Values"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4436627) (SSRN 4436627)
 - Intangible intensity: [Eisfeldt, Hartman-Glaser, Kim & Lee — "Intangible Intensity"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5779844) (SSRN 5779844)

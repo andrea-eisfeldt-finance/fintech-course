@@ -11,7 +11,7 @@ nav_order: 1
 
 ## Case
 
-**JPMorgan Chase After the Financial Crisis: What Is the Optimal Scope for the Largest Bank in the U.S.?** — [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**JPMorgan Chase After the Financial Crisis: What Is the Optimal Scope for the Largest Bank in the U.S.?** — [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 *JPMorgan Chase is the largest U.S. bank by assets (~$4T). This case examines the bank's post-financial-crisis strategy, including debates over optimal scope, the tension between universal banking and "too big to fail" regulation, and the role of technology investment in maintaining competitive advantage.*
 
@@ -21,7 +21,7 @@ nav_order: 1
 
 ## Pre-class Reading
 
-- JPMorgan Chase case (HBS Case Pack link above)
+- JPMorgan Chase case (FinTech Case Pack link above)
 - Most recent JPM CEO annual letter: [Jamie Dimon's 2024 Annual Report Letter](https://www.jpmorganchase.com/ir/annual-report) (note: new letter typically drops mid-April 2025)
 - Banking industry overview: [McKinsey Global Banking Annual Review 2025](https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review)
 

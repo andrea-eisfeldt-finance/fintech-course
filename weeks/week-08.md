@@ -11,7 +11,7 @@ nav_order: 8
 
 ## Case
 
-**Fluidity: The Tokenization of Real Estate Assets** (Di Maggio, Lane & Ma) — [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**Fluidity: The Tokenization of Real Estate Assets** (Di Maggio, Lane & Ma) — [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 *Fluidity was a Brooklyn-based blockchain startup (founded 2017 by Michael Oved, formerly of Virtu Financial) that attempted to tokenize a 12-unit Manhattan luxury condo (~$30M) into debt and equity tokens via a partnership with broker-dealer Propellr. The deal was quietly shelved in summer 2019 — making this a rich case for discussing both the promise and practical barriers to real asset tokenization. Since then, the broader RWA tokenization market has grown dramatically to $36B+ by late 2025, with major institutions like BlackRock now launching tokenized funds.*
 
@@ -21,7 +21,7 @@ nav_order: 8
 
 ## Pre-class Reading
 
-- Fluidity case (HBS Case Pack link above)
+- Fluidity case (FinTech Case Pack link above)
 
 ## Optional Reading
 

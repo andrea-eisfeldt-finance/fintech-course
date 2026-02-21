@@ -12,7 +12,7 @@ Class consists of lectures, cases, group presentations, and guest speakers. Read
 
 ## Course Materials
 
-**Required:** [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**Required:** [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 Required and optional readings are linked on each weekly topic page.
 

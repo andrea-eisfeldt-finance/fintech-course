@@ -25,7 +25,7 @@ nav_order: 7
 - Tokenized deposits: [Huang & Keister — "Tokenized Deposits"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950789) (SSRN, 2026)
 - Digital currency policy: [G30 — "Digital Currencies and Stablecoins"](https://group30.org/) (Duffie)
 - CBDC global tracker: [Atlantic Council CBDC Tracker](https://www.atlanticcouncil.org/cbdctracker/)
-- Facebook Libra case: [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+- Facebook Libra case: [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 ## Guest Speaker
 

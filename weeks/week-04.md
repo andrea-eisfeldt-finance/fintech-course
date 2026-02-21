@@ -11,7 +11,7 @@ nav_order: 4
 
 ## Case
 
-**The Wealthfront Generation** — [HBS Case Pack](https://hbsp.harvard.edu/import/1387361)
+**The Wealthfront Generation** — [FinTech Case Pack](https://hbsp.harvard.edu/import/1387361)
 
 *Wealthfront launched in 2011 as one of the first automated investment advisors ("robo-advisors"), offering tax-loss harvesting and low-cost diversified portfolios. Nearly acquired by UBS for $1.4B in 2022 (deal called off), Wealthfront filed for IPO (WLTH, Nasdaq). This case examines the democratization of wealth management and whether algorithm-driven advice can compete with traditional financial advisors.*
 
@@ -21,7 +21,7 @@ nav_order: 4
 
 ## Pre-class Reading
 
-- Wealthfront case (HBS Case Pack link above)
+- Wealthfront case (FinTech Case Pack link above)
 - Robo-advising overview: [D'Acunto & Rossi — "Robo-Advising"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3360125) (SSRN)
 
 ## Optional Reading
