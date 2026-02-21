@@ -1,5 +1,5 @@
 <style>
-  /* Restyle the main-header as our unified banner */
+  /* === Unified top banner === */
   .main-header {
     background-color: #003B5C !important;
     border-bottom: 3px solid #FFD100 !important;
@@ -8,7 +8,7 @@
     align-items: center !important;
   }
 
-  /* Hide search and aux nav inside main-header */
+  /* Hide search and aux nav — not needed in banner */
   .main-header > .search,
   .main-header > .search-overlay,
   .main-header > div:first-child,
@@ -32,14 +32,9 @@
   }
   .ucla-banner__title {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 1.3;
-  }
-  .ucla-banner__sub {
-    color: rgba(255,255,255,0.7);
-    font-size: 12px;
-    margin-top: 1px;
   }
   .ucla-banner__prof {
     color: #FFD100;
@@ -50,18 +45,56 @@
     white-space: nowrap;
   }
 
-  /* Hide the sidebar header (redundant title + menu button below gold line) */
+  /* === Sidebar: ensure no black text on blue === */
+
+  /* Hide the redundant sidebar header on mobile (title + menu) */
   .side-bar .site-header {
     display: none !important;
   }
 
-  /* Add a nav menu button inside our banner via JS */
+  /* Make sidebar title (home link) white on dark blue */
+  .side-bar {
+    background-color: #003B5C !important;
+  }
+  .side-bar .site-title {
+    color: #FFD100 !important;
+    font-weight: 700;
+  }
+  /* Nav links in sidebar: white */
+  .side-bar .site-nav .nav-list-item a,
+  .side-bar .site-nav a {
+    color: #FFFFFF !important;
+  }
+  .side-bar .site-nav .nav-list-item a:hover,
+  .side-bar .site-nav a:hover {
+    color: #FFD100 !important;
+  }
+  .side-bar .site-nav .nav-list-item.active > a,
+  .side-bar .site-nav .nav-list-item.active > .nav-list-link {
+    color: #FFD100 !important;
+    font-weight: 700;
+  }
+  /* Search input in sidebar */
+  .side-bar .search-input-wrap .search-input {
+    background-color: rgba(255,255,255,0.1) !important;
+    color: #FFFFFF !important;
+    border-color: rgba(255,255,255,0.25) !important;
+  }
+  .side-bar .search-input-wrap .search-input::placeholder {
+    color: rgba(255,255,255,0.5) !important;
+  }
+  /* Footer in sidebar */
+  .side-bar .site-footer {
+    color: rgba(255,255,255,0.5) !important;
+  }
+
+  /* Hamburger menu in banner for mobile */
   .ucla-banner__menu {
     background: none;
     border: none;
     cursor: pointer;
     padding: 4px;
-    display: none; /* only show on mobile */
+    display: none;
     flex-shrink: 0;
   }
   .ucla-banner__menu svg {
@@ -81,17 +114,13 @@
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Add hamburger menu button to our banner
   var banner = document.querySelector('.ucla-banner');
   if (!banner) return;
-
   var menuBtn = document.createElement('button');
   menuBtn.className = 'ucla-banner__menu';
   menuBtn.setAttribute('aria-label', 'Menu');
   menuBtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>';
   banner.insertBefore(menuBtn, banner.firstChild);
-
-  // Wire it to toggle the same sidebar as the original button
   var origBtn = document.getElementById('menu-button');
   menuBtn.addEventListener('click', function() {
     if (origBtn) origBtn.click();
