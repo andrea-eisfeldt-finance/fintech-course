@@ -8,7 +8,7 @@ nav_order: 3
 
 ## Format
 
-- **Length:** 2–3 pages plus exhibits (5 pages plus exhibits maximum)
+- **Length:** 3–5 pages plus exhibits (7 pages plus exhibits maximum)
 - **Structure:** Answer the posted case questions directly. There is no need to package your submission as a memo, report, or executive summary.
 - **Exhibits:** Use exhibits for charts, tables, financial data, and supporting quantitative analysis. Exhibits do not count toward the page limit.
 
