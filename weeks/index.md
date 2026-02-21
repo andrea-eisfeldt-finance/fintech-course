@@ -7,6 +7,8 @@ has_children: true
 
 # Weekly Schedule
 
+*Click on the week number for readings, case questions, and slide outlines.*
+
 | Week | Date | Topic | Assignment Due |
 |------|------|-------|---------------|
 | [1]({% link weeks/week-01.md %}) | April 7 | Banking Industry Landscape & JPMorgan Chase | Pre-class reading (Individual) |
