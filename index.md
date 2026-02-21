@@ -18,7 +18,7 @@ Tuesdays, 4:10–7:00 PM PT
 
 Technology is reshaping every corner of financial services — from how consumers borrow and invest, to how banks manage risk, to how assets are issued, traded, and settled. This course examines that transformation through the lens of economics and finance, asking: *Where does technology create genuine value, and where is it hype?*
 
-Each week combines real-world case studies with academic research and current industry data. Students analyze real companies — JPMorgan Chase, SoFi, OnDeck, Wealthfront — and apply frameworks from corporate finance, banking, and market microstructure to evaluate fintech business models, identify market frictions, and assess competitive dynamics.
+Each week combines real-world case studies with academic research and current industry data. Students analyze financial and technology companies — JPMorgan Chase, SoFi, OnDeck, Wealthfront — and apply frameworks from corporate finance, banking, and market microstructure to evaluate fintech business models, identify market frictions, and assess competitive dynamics.
 
 The course culminates in a capstone [Business Proposal]({% link business-proposal.md %}) where student teams identify an unmet need in financial services and build a fintech venture from scratch, including competitive analysis, pro forma financials, and a live pitch.
 
