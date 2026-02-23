@@ -1,9 +1,7 @@
 ---
 layout: default
 title: How This Tool Was Built
-parent: Valuation Tool
-grand_parent: Resources
-nav_order: 1
+nav_exclude: true
 ---
 
 # How This Valuation Tool Was Built

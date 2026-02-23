@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Valuation Lessons
-parent: Valuation Tool
-grand_parent: Resources
-nav_order: 2
+nav_exclude: true
 ---
 
 # What We Learn from the Valuation Exercises

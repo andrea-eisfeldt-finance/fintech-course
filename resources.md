@@ -2,10 +2,13 @@
 layout: default
 title: Resources
 nav_order: 5
-has_children: true
 ---
 
 # Resources
+
+## Interactive Tools
+
+- [**Valuation Tool**]({{ site.baseurl }}/tools/valuation/) — DCF, multiples, and transaction comps for 14 banks and fintechs ([How It Was Built]({{ site.baseurl }}/tools/valuation/about/) · [Valuation Lessons]({{ site.baseurl }}/tools/valuation/lessons/))
 
 ## FinTech Sub-Industries
 

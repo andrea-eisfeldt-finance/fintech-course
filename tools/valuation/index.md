@@ -1,10 +1,7 @@
 ---
 layout: default
 title: Valuation Tool
-nav_exclude: false
-parent: Resources
-nav_order: 5
-has_children: true
+nav_exclude: true
 ---
 
 <link rel="stylesheet" href="{{ '/tools/valuation/css/valuation.css' | relative_url }}">
