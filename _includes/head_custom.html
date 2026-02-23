@@ -57,39 +57,48 @@
     display: none !important;
   }
 
-  /* Desktop (md): sidebar fixed left, content fills remaining width */
+  /* Desktop (md+): sidebar fixed left, content fills ALL remaining width */
   @media (min-width: 50rem) {
     .side-bar {
       width: 15.5rem !important;
       min-width: 15.5rem !important;
+      max-width: 15.5rem !important;
       left: 0 !important;
+      top: 0 !important;
       position: fixed !important;
     }
     .main {
       margin-left: 15.5rem !important;
+      max-width: none !important;
+      width: calc(100% - 15.5rem) !important;
     }
   }
 
-  /* Large screens: keep sidebar at same width, don't center it */
+  /* Large screens: same treatment, no centering */
   @media (min-width: 66.5rem) {
     .side-bar {
       width: 15.5rem !important;
       min-width: 15.5rem !important;
+      max-width: 15.5rem !important;
       left: 0 !important;
     }
     .main {
       margin-left: 15.5rem !important;
+      max-width: none !important;
+      width: calc(100% - 15.5rem) !important;
     }
   }
 
-  /* Content: fill available width, no narrow max-width */
-  .main .main-content-wrap {
+  /* Content: fill available width, no narrow max-width anywhere */
+  .main,
+  .main .main-content-wrap,
+  .main .main-content,
+  .main .main-content main {
     max-width: none !important;
+  }
+  .main .main-content-wrap {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
-  }
-  .main .main-content {
-    max-width: none !important;
   }
   @media (min-width: 50rem) {
     .main .main-content-wrap {
