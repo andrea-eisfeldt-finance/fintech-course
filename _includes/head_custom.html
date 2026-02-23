@@ -50,24 +50,55 @@
     white-space: nowrap;
   }
 
-  /* === Sidebar: tighten width and remove wasted space === */
+  /* === Layout: sidebar + full-width content === */
 
-  /* Hide the redundant sidebar header on mobile (title + menu) */
+  /* Hide the redundant sidebar header on mobile */
   .side-bar .site-header {
     display: none !important;
   }
 
-  /* Use full width for content — no wasted margins */
+  /* Desktop (md): sidebar fixed left, content fills remaining width */
+  @media (min-width: 50rem) {
+    .side-bar {
+      width: 15.5rem !important;
+      min-width: 15.5rem !important;
+      left: 0 !important;
+      position: fixed !important;
+    }
+    .main {
+      margin-left: 15.5rem !important;
+    }
+  }
+
+  /* Large screens: keep sidebar at same width, don't center it */
+  @media (min-width: 66.5rem) {
+    .side-bar {
+      width: 15.5rem !important;
+      min-width: 15.5rem !important;
+      left: 0 !important;
+    }
+    .main {
+      margin-left: 15.5rem !important;
+    }
+  }
+
+  /* Content: fill available width, no narrow max-width */
   .main .main-content-wrap {
     max-width: none !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
   .main .main-content {
     max-width: none !important;
   }
+  @media (min-width: 50rem) {
+    .main .main-content-wrap {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+    }
+  }
 
-  /* Make sidebar title (home link) white on dark blue */
+  /* === Sidebar styling === */
   .side-bar {
     background-color: #003B5C !important;
   }
@@ -75,7 +106,6 @@
     color: #FFD100 !important;
     font-weight: 700;
   }
-  /* Nav links in sidebar: white */
   .side-bar .site-nav .nav-list-item a,
   .side-bar .site-nav a {
     color: #FFFFFF !important;
@@ -89,7 +119,6 @@
     color: #FFD100 !important;
     font-weight: 700;
   }
-  /* Search input in sidebar */
   .side-bar .search-input-wrap .search-input {
     background-color: rgba(255,255,255,0.1) !important;
     color: #FFFFFF !important;
@@ -98,15 +127,18 @@
   .side-bar .search-input-wrap .search-input::placeholder {
     color: rgba(255,255,255,0.5) !important;
   }
-  /* Footer in sidebar */
   .side-bar .site-footer {
     color: rgba(255,255,255,0.5) !important;
   }
 
-
+  /* === Mobile: stack sidebar above content === */
   @media (max-width: 49.999rem) {
     .ucla-banner img { height: 26px; }
     .ucla-banner__title { font-size: 13px; }
     .ucla-banner__prof { font-size: 11px; }
+    .main .main-content-wrap {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
   }
 </style>
