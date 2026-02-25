@@ -8,16 +8,10 @@
     align-items: center !important;
   }
 
-  /* Hide search, aux nav, and theme hamburger menu button */
+  /* Hide search and aux nav on all screens */
   .main-header > .search,
   .main-header > .search-overlay,
-  .main-header > div:first-child,
-  .main-header .aux-nav,
-  .site-button,
-  #menu-button,
-  .main-header .site-button,
-  button[aria-label="Toggle navigation"],
-  .site-header .site-button {
+  .main-header .aux-nav {
     display: none !important;
   }
 
@@ -50,64 +44,7 @@
     white-space: nowrap;
   }
 
-  /* === Layout: sidebar + full-width content === */
-
-  /* Hide the redundant sidebar header on mobile */
-  .side-bar .site-header {
-    display: none !important;
-  }
-
-  /* Desktop (md+): sidebar fixed left, content fills ALL remaining width */
-  @media (min-width: 50rem) {
-    .side-bar {
-      width: 15.5rem !important;
-      min-width: 15.5rem !important;
-      max-width: 15.5rem !important;
-      left: 0 !important;
-      top: 0 !important;
-      position: fixed !important;
-    }
-    .main {
-      margin-left: 15.5rem !important;
-      max-width: none !important;
-      width: calc(100% - 15.5rem) !important;
-    }
-  }
-
-  /* Large screens: same treatment, no centering */
-  @media (min-width: 66.5rem) {
-    .side-bar {
-      width: 15.5rem !important;
-      min-width: 15.5rem !important;
-      max-width: 15.5rem !important;
-      left: 0 !important;
-    }
-    .main {
-      margin-left: 15.5rem !important;
-      max-width: none !important;
-      width: calc(100% - 15.5rem) !important;
-    }
-  }
-
-  /* Content: fill available width, no narrow max-width anywhere */
-  .main,
-  .main .main-content-wrap,
-  .main .main-content,
-  .main .main-content main {
-    max-width: none !important;
-  }
-  .main .main-content-wrap {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-  }
-  @media (min-width: 50rem) {
-    .main .main-content-wrap {
-      padding-left: 2rem !important;
-      padding-right: 2rem !important;
-    }
-  }
-
-  /* === Sidebar styling === */
+  /* === Sidebar styling (all screens) === */
   .side-bar {
     background-color: #003B5C !important;
   }
@@ -128,6 +65,13 @@
     color: #FFD100 !important;
     font-weight: 700;
   }
+  /* Nav expand/collapse arrows */
+  .side-bar .nav-list-expander {
+    color: rgba(255,255,255,0.6) !important;
+  }
+  .side-bar .nav-list-expander:hover {
+    color: #FFD100 !important;
+  }
   .side-bar .search-input-wrap .search-input {
     background-color: rgba(255,255,255,0.1) !important;
     color: #FFFFFF !important;
@@ -140,14 +84,132 @@
     color: rgba(255,255,255,0.5) !important;
   }
 
-  /* === Mobile: stack sidebar above content === */
+  /* Content: fill available width, no narrow max-width anywhere */
+  .main,
+  .main .main-content-wrap,
+  .main .main-content,
+  .main .main-content main {
+    max-width: none !important;
+  }
+  .main .main-content-wrap {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* ==========================================================
+     MOBILE & SMALL TABLETS (< 50rem / ~800px)
+     Hamburger menu toggles sidebar nav
+     ========================================================== */
   @media (max-width: 49.999rem) {
+    /* Show the site-header with hamburger button */
+    .side-bar .site-header {
+      display: flex !important;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #003B5C !important;
+      padding: 0.5rem 1rem !important;
+      border-bottom: 1px solid rgba(255,255,255,0.15);
+    }
+
+    /* Style the hamburger/menu button for mobile */
+    .side-bar .site-button,
+    .side-bar #menu-button,
+    .side-bar button[aria-label="Toggle navigation"],
+    .site-button,
+    #menu-button {
+      display: block !important;
+      color: #FFD100 !important;
+      background: none !important;
+      border: 1px solid rgba(255,209,0,0.4) !important;
+      border-radius: 4px;
+      padding: 6px 8px !important;
+      cursor: pointer;
+    }
+    .side-bar .site-button svg,
+    .site-button svg,
+    #menu-button svg {
+      fill: #FFD100 !important;
+      color: #FFD100 !important;
+    }
+
+    /* Banner: smaller on mobile */
     .ucla-banner img { height: 26px; }
     .ucla-banner__title { font-size: 13px; }
     .ucla-banner__prof { font-size: 11px; }
+
+    /* Content padding: tighter on mobile */
     .main .main-content-wrap {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
+    }
+  }
+
+  /* ==========================================================
+     TABLETS (50rem–66.5rem / ~800px–1064px)
+     Sidebar visible, slightly narrower
+     ========================================================== */
+  @media (min-width: 50rem) {
+    /* Hide hamburger and redundant sidebar header on desktop/tablet */
+    .side-bar .site-header {
+      display: none !important;
+    }
+    .site-button,
+    #menu-button,
+    .main-header .site-button,
+    button[aria-label="Toggle navigation"],
+    .site-header .site-button {
+      display: none !important;
+    }
+
+    .side-bar {
+      width: 14rem !important;
+      min-width: 14rem !important;
+      max-width: 14rem !important;
+      left: 0 !important;
+      top: 0 !important;
+      position: fixed !important;
+    }
+    .main {
+      margin-left: 14rem !important;
+      max-width: none !important;
+      width: calc(100% - 14rem) !important;
+    }
+    .main .main-content-wrap {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+    }
+  }
+
+  /* ==========================================================
+     DESKTOPS & LARGE SCREENS (≥ 66.5rem / ~1064px)
+     Wider sidebar, full-width content
+     ========================================================== */
+  @media (min-width: 66.5rem) {
+    .side-bar {
+      width: 15.5rem !important;
+      min-width: 15.5rem !important;
+      max-width: 15.5rem !important;
+      left: 0 !important;
+    }
+    .main {
+      margin-left: 15.5rem !important;
+      max-width: none !important;
+      width: calc(100% - 15.5rem) !important;
+    }
+    .main .main-content-wrap {
+      padding-left: 2.5rem !important;
+      padding-right: 2.5rem !important;
+    }
+  }
+
+  /* ==========================================================
+     EXTRA-LARGE SCREENS (≥ 87.5rem / ~1400px)
+     Slightly more content padding for readability
+     ========================================================== */
+  @media (min-width: 87.5rem) {
+    .main .main-content-wrap {
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
     }
   }
 </style>
