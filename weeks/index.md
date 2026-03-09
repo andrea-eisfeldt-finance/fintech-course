@@ -18,6 +18,6 @@ has_children: true
 | [5]({{ '/weeks/week-05.html' | relative_url }}) | May 5 | AI & Finance / Unidentified Financial Firms | Individual Case |
 | [6]({{ '/weeks/week-06.html' | relative_url }}) | May 12 | Crypto & Blockchain | Group A: Incumbent Analysis |
 | [7]({{ '/weeks/week-07.html' | relative_url }}) | May 19 | Stablecoins & Digital Currency | Group B: Incumbent Analysis |
-| [8]({{ '/weeks/week-08.html' | relative_url }}) | May 27 | Tokenization & Fluidity | Group B: Fluidity Case |
+| [8]({{ '/weeks/week-08.html' | relative_url }}) | May 26 | Tokenization & Fluidity | Group B: Fluidity Case |
 | [9]({{ '/weeks/week-09.html' | relative_url }}) | June 2 | Business Proposal Presentations (Group A) | Group A Presentation |
 | [10]({{ '/weeks/week-10.html' | relative_url }}) | June 9 | Business Proposal Presentations (Group B) | Group B Presentation |

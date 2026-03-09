@@ -85,14 +85,14 @@ Identify the 2–3 most significant frictions in this industry that technology c
 
 **Company Filings and Financials:**
 - [SEC EDGAR Full-Text Search](https://efts.sec.gov/LATEST/search-index?q=%22fintech%22&dateRange=custom&startdt=2024-01-01&enddt=2026-12-31) — search 10-K, S-1, and other filings by keyword
-- [SEC EDGAR Company Search](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany) — look up any public company's filings by name or ticker
+- [SEC EDGAR Company Search](https://www.sec.gov/edgar/searchedgar/companysearch) — look up any public company's filings by name or ticker
 - Yahoo Finance, Google Finance — quick access to market cap, revenue, financial statements
 
 **Economic and Market Data:**
 - [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) — interest rates, consumer credit, bank balance sheets, and 800,000+ economic time series (free, with API access)
 - [NY Fed Household Debt and Credit Report](https://www.newyorkfed.org/microeconomics/hhdc) — quarterly consumer debt data
 - [FDIC BankFind Suite](https://www.fdic.gov/analysis/quarterly-banking-profile/) — bank financial data, call reports, industry statistics
-- [BIS Statistics](https://www.bis.org/statistics/) — global banking, payments, and derivatives data
+- [BIS Statistics](https://data.bis.org/) — global banking, payments, and derivatives data
 
 ---
 

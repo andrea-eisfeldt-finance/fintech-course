@@ -29,7 +29,7 @@ nav_order: 1
 
 - Banking and technology outlook: [Deloitte 2026 Banking and Capital Markets Outlook](https://www2.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html)
 - Fintech landscape overview: [F-Prime State of Fintech 2026](https://www.fprimecapital.com/)
-- Fintech industry evolution: [BCG — Fintech's Next Chapter](https://www.bcg.com/publications/2025/fintech-next-chapter)
+- Fintech industry evolution: [BCG — Fintech's Next Chapter](https://www.bcg.com/publications/2025/fintechs-scaled-winners-emerging-disruptors)
 - AI in banking: [HBR — How AI Is Transforming Banking](https://hbr.org/)
 - AI in banking strategy: [HBR — Banking on AI](https://hbr.org/)
 

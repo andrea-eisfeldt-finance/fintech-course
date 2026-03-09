@@ -7,10 +7,10 @@ nav_order: 1
 # MGMT 298D — Financial Technology: FinTech
 
 UCLA Anderson School of Management · Spring 2026
-{: .fs-5 .fw-500 }
+{: .fs-5 .fw-300 }
 
 Professor Andrea Eisfeldt
-{: .fs-5 .fw-500 }
+{: .fs-5 .fw-300 }
 
 Tuesdays, 4:10–7:00 PM PT
 

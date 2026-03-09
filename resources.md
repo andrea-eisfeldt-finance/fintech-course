@@ -36,7 +36,7 @@ has_children: true
 ## Company Filings and Financials
 
 - [SEC EDGAR Full-Text Search](https://efts.sec.gov/LATEST/search-index?q=%22fintech%22&dateRange=custom&startdt=2024-01-01&enddt=2026-12-31) — search 10-K, S-1, and other filings by keyword
-- [SEC EDGAR Company Search](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany) — look up any public company's filings by name or ticker
+- [SEC EDGAR Company Search](https://www.sec.gov/edgar/searchedgar/companysearch) — look up any public company's filings by name or ticker
 - [FDIC BankFind Suite](https://www.fdic.gov/analysis/quarterly-banking-profile/) — bank financial data, call reports, industry statistics
 - [Crunchbase](https://www.crunchbase.com/) — startup funding history, key personnel, acquisitions
 - S&P Capital IQ / FactSet — via [UCLA Anderson Library](https://www.anderson.ucla.edu/library)
@@ -45,7 +45,7 @@ has_children: true
 
 - [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) — 800,000+ economic time series including interest rates, consumer credit, and bank balance sheets (free, with API)
 - [NY Fed Household Debt and Credit Report](https://www.newyorkfed.org/microeconomics/hhdc) — quarterly consumer debt data
-- [BIS Statistics](https://www.bis.org/statistics/) — global banking, payments, and derivatives data
+- [BIS Statistics](https://data.bis.org/) — global banking, payments, and derivatives data
 - [World Bank Global Findex](https://www.worldbank.org/en/publication/globalfindex) — financial inclusion data across countries
 - [U.S. Census Bureau Economic Data](https://www.census.gov/econ/) — business counts and revenue data by industry
 

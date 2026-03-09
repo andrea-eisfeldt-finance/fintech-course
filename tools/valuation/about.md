@@ -9,7 +9,7 @@ nav_order: 1
 # How This Valuation Tool Was Built
 
 {: .warning }
-> **Disclaimer:** This tool was built by [Claude Code](https://claude.ai/claude-code) (Anthropic's AI coding assistant) in collaboration with Professor Eisfeldt. It may contain errors in financial data, calculations, or modeling assumptions. All financial figures are approximate and drawn from public SEC filings for educational purposes only. **Always verify against primary sources** ([SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany), company 10-K filings, Bloomberg, Capital IQ) before using any figures for investment decisions or professional analysis.
+> **Disclaimer:** This tool was built by [Claude Code](https://claude.ai/claude-code) (Anthropic's AI coding assistant) in collaboration with Professor Eisfeldt. It may contain errors in financial data, calculations, or modeling assumptions. All financial figures are approximate and drawn from public SEC filings for educational purposes only. **Always verify against primary sources** ([SEC EDGAR](https://www.sec.gov/edgar/searchedgar/companysearch), company 10-K filings, Bloomberg, Capital IQ) before using any figures for investment decisions or professional analysis.
 
 ---
 

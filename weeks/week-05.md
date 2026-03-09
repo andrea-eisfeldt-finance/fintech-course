@@ -30,8 +30,8 @@ nav_order: 5
 
 - AI in asset management: [Mo & Ouyang — "AI and Finance"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4568959) (SSRN)
 - AI and finance survey: [Eisfeldt & Schubert — "AI and Finance"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5029877) (SSRN)
-- GenAI industry perspective: [Goldman Sachs — "Generative AI: Hype or Truly Transformative?"](https://www.goldmansachs.com/insights/pages/generative-ai-hype-or-truly-transformative.html)
-- AI research hub: [Goldman Sachs — AI Insights](https://www.goldmansachs.com/insights/topics/artificial-intelligence.html)
+- GenAI industry perspective: [Goldman Sachs — "Generative AI: Hype or Truly Transformative?"](https://www.goldmansachs.com/insights/top-of-mind/gen-ai-too-much-spend-too-little-benefit)
+- AI research hub: [Goldman Sachs — AI Insights](https://www.goldmansachs.com/insights/artificial-intelligence)
 - AI in finance education: [Stanford Institute for Human-Centered AI](https://hai.stanford.edu/)
 
 ## Guest Speaker

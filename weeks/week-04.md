@@ -29,7 +29,7 @@ nav_order: 4
 - Promises and pitfalls of robo-advising: [D'Acunto, Prabhala & Rossi — "The Promises and Pitfalls of Robo-Advising"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3122577) (SSRN)
 - Robo-advisors and investor behavior: [JFE 2024 — Robo-Advisors Paper](https://www.sciencedirect.com/journal/journal-of-financial-economics)
 - Intangible assets and valuation: [Eisfeldt, Kim & Papanikolaou — "Intangible Value"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3727132) (SSRN)
-- Wealthfront IPO filing: [SEC EDGAR — Wealthfront S-1](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany)
+- Wealthfront IPO filing: [SEC EDGAR — Wealthfront S-1](https://www.sec.gov/edgar/searchedgar/companysearch)
 - Robo-advisory industry data: [RIABiz — Robo-Advisory Landscape](https://riabiz.com/)
 - Robo-advisor AUM comparison: [Backend Benchmarking](https://www.backendbenchmarking.com/)
 

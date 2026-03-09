@@ -154,9 +154,9 @@ The 2020–2021 era treated fintechs as pure technology companies: high revenue 
 7. **Market pricing changes with cycles** — 2021 multiples ≠ 2024 multiples for the same businesses
 
 These lessons apply directly to:
+- **Week 2:** SoFi and Lending (bank charter economics, liability-side value)
+- **Week 4:** Wealthfront (private valuation, illiquidity discount, IPO)
 - **Week 5b:** Unidentified Financial Firms (statement structure and ratio analysis)
-- **Week 6:** Wealthfront IPO (private valuation, illiquidity discount, why the deal fell apart)
-- **Week 7:** SoFi and Lending (bank charter economics, liability-side value)
 - **Business Proposals:** Valuing your proposed fintech venture
 
 ---
